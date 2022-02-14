@@ -1,0 +1,8 @@
+ku = int(input("enter the number"))
+count = 0
+
+while ku != 0:
+    ku //= 10
+    count += 1
+
+print("Number of digits: " + str(count))
